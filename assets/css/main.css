@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container {
+	display : flex;
+}
+
+/* Header */
+
+#nav.flex-container {
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#nav {
+	padding: 0;	
+	background-color: #7759CC;	
+}
+
+#nav a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	border-right: 2px solid #FFA671;
+	padding: 20px 6%;
+	color: white;
+	cursor: pointer;
+}
+
+#nav a:hover {
+	background-color: #FFA671;
+}
+
+#nav a:last-child {
+	border-right:none;	
+}
+
+/* Segundo Nav */
+
+.hide {
+	display: none;
+}

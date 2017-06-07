@@ -1,0 +1,52 @@
+@media (min-width: 1px) and (max-width: 768px) {
+	#menu {
+		font-family: 'Ubuntu', sans-serif;
+		flex-direction: column;
+		background-color: #3F3F3F;
+		text-decoration: none;
+		color: white;
+		width: 100%;
+		padding: 20px;			
+	}
+
+	#menu:hover {
+		color: whitesmoke;	
+		background-color: #7759CC;
+	}
+
+	#nav.flex-container {
+		flex-direction: column;
+	}
+
+	.menu-nav {
+		display: none;		
+	}
+
+	#nav {
+		padding: 0;	
+		background-color: #3F3F3F;	
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 700;				
+	}
+
+	#nav a {
+		text-decoration: none;
+		border-bottom: 2px solid black;
+		padding: 20px 8%;
+		color: white;
+	}
+
+	#nav a:hover {
+		color: black; 
+	}
+
+	.fa-chevron-circle-down {
+		color: #FFA671;
+	}
+}
+
+@media (min-width: 768px) {
+	#menu {
+		display: none;
+	}
+}
